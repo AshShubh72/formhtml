@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 300px;
+  padding: 16px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+input[type=text], input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<div class="container">
+  <label for="sname"><b>Student Name</b></label>
+  <input type="text" placeholder="Enter Student Name" name="sname" required>
+
+  <label for="fname"><b>Father's Name</b></label>
+  <input type="text" placeholder="Enter Father's Name" name="fname" required>
+
+  <label for="mname"><b>Mother's Name</b></label>
+  <input type="text" placeholder="Enter Mother's Name" name="mname" required>
+
+  <label for="dob"><b>Date of Birth</b></label>
+  <input type="text" placeholder="Enter Date of Birth" name="dob" required>
+
+  <label for="gender"><b>Gender</b></label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+  <label for="email"><b>Email ID</b></label>
+  <input type="email" placeholder="Enter Email" name="email" required>
+
+  <label for="mobile"><b>Mobile No.</b></label>
+  <input type="text" placeholder="Enter Mobile No." name="mobile" required>
+
+  <label for="address"><b>Address</b></label>
+  <input type="text" placeholder="Enter Address" name="address" required>
+
+  <label for="state"><b>State</b></label>
+  <input type="text" placeholder="Enter State" name="state" required>
+
+  <label for="city"><b>City</b></label>
+  <input type="text" placeholder="Enter City" name="city" required>
+
+  <button type="submit">Submit</button>
+</div>
+
+</body>
+</html>
